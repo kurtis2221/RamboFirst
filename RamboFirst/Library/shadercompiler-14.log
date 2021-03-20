@@ -1,0 +1,13 @@
+Base path: E:/Unity4/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-14-1436
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=8 type=0 insize=4321 outsize=6582 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2279 outsize=817 kw=POINT ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=2279 outsize=336 kw=DIRECTIONAL_COOKIE ok=1
+Unhandled exception: Readfile from pipe failed. GLE=A pipe használata befejezõdött.
+
+
+Quitting shader compiler process

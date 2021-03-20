@@ -1,0 +1,1 @@
+start RamboFirst.exe -force-d3d9

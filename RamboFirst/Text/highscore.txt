@@ -1,0 +1,6 @@
+<color=#d0d0d0ff>CONGRATULATIONS</color>
+<color=#80a050ff>YOU ARE NOW</color>
+<color=#ffff80ff>AMONG OTHER GREAT</color>
+<color=#a04040ff>BATTLE HEROES</color>
+<color=#60c0c0ff>IN THE RAMBO</color>
+<color=#304090ff>HIGH SCORE RANKS</color>

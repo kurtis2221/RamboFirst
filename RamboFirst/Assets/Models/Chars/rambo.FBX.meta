@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: b9b3cdb57a527d04385b786526c80f7f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: char
+    100002: head
+    100004: larm
+    100006: lcalf
+    100008: lfoot
+    100010: lleg
+    100012: lower
+    100014: //RootNode
+    100016: rarm
+    100018: rcalf
+    100020: rfoot
+    100022: rleg
+    100024: root
+    100026: upper
+    400000: char
+    400002: head
+    400004: larm
+    400006: lcalf
+    400008: lfoot
+    400010: lleg
+    400012: lower
+    400014: //RootNode
+    400016: rarm
+    400018: rcalf
+    400020: rfoot
+    400022: rleg
+    400024: root
+    400026: upper
+    4300000: char
+    7400000: Idle
+    7400002: Walk
+    7400004: Flee
+    7400006: Pow
+    7400008: Death
+    9500000: //RootNode
+    13700000: char
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/lower
+        weight: 1
+      - path: root/lower/lleg
+        weight: 1
+      - path: root/lower/lleg/lfoot
+        weight: 1
+      - path: root/lower/rleg
+        weight: 1
+      - path: root/lower/rleg/rfoot
+        weight: 1
+      - path: root/upper
+        weight: 1
+      - path: root/upper/head
+        weight: 1
+      - path: root/upper/lcalf
+        weight: 1
+      - path: root/upper/lcalf/larm
+        weight: 1
+      - path: root/upper/rcalf
+        weight: 1
+      - path: root/upper/rcalf/rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/lower
+        weight: 1
+      - path: root/lower/lleg
+        weight: 1
+      - path: root/lower/lleg/lfoot
+        weight: 1
+      - path: root/lower/rleg
+        weight: 1
+      - path: root/lower/rleg/rfoot
+        weight: 1
+      - path: root/upper
+        weight: 1
+      - path: root/upper/head
+        weight: 1
+      - path: root/upper/lcalf
+        weight: 1
+      - path: root/upper/lcalf/larm
+        weight: 1
+      - path: root/upper/rcalf
+        weight: 1
+      - path: root/upper/rcalf/rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Flee
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/lower
+        weight: 1
+      - path: root/lower/lleg
+        weight: 1
+      - path: root/lower/lleg/lfoot
+        weight: 1
+      - path: root/lower/rleg
+        weight: 1
+      - path: root/lower/rleg/rfoot
+        weight: 1
+      - path: root/upper
+        weight: 1
+      - path: root/upper/head
+        weight: 1
+      - path: root/upper/lcalf
+        weight: 1
+      - path: root/upper/lcalf/larm
+        weight: 1
+      - path: root/upper/rcalf
+        weight: 1
+      - path: root/upper/rcalf/rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Pow
+      takeName: Take 001
+      firstFrame: 64
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/lower
+        weight: 1
+      - path: root/lower/lleg
+        weight: 1
+      - path: root/lower/lleg/lfoot
+        weight: 1
+      - path: root/lower/rleg
+        weight: 1
+      - path: root/lower/rleg/rfoot
+        weight: 1
+      - path: root/upper
+        weight: 1
+      - path: root/upper/head
+        weight: 1
+      - path: root/upper/lcalf
+        weight: 1
+      - path: root/upper/lcalf/larm
+        weight: 1
+      - path: root/upper/rcalf
+        weight: 1
+      - path: root/upper/rcalf/rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/lower
+        weight: 1
+      - path: root/lower/lleg
+        weight: 1
+      - path: root/lower/lleg/lfoot
+        weight: 1
+      - path: root/lower/rleg
+        weight: 1
+      - path: root/lower/rleg/rfoot
+        weight: 1
+      - path: root/upper
+        weight: 1
+      - path: root/upper/head
+        weight: 1
+      - path: root/upper/lcalf
+        weight: 1
+      - path: root/upper/lcalf/larm
+        weight: 1
+      - path: root/upper/rcalf
+        weight: 1
+      - path: root/upper/rcalf/rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0649999976
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
