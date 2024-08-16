@@ -70,6 +70,10 @@ https://www.youtube.com/watch?v=vfXpQUVc8dc
 ===============
 Version history
 ===============
+1.1.1
+=====
+- Grenade animation fixed
+
 1.1
 ===
 - Fixed, enemy was able to activate helicopter

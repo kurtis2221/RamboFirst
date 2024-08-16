@@ -70,6 +70,10 @@ https://www.youtube.com/watch?v=vfXpQUVc8dc
 ==============
 Verziótörténet
 ==============
+1.1.1
+=====
+- Gránát animáció javítva
+
 1.1
 ===
 - Helikoptert ellenfél aktiválhatta, javítva
